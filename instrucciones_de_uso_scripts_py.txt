@@ -10,7 +10,8 @@ El comando consta de cinco parámetros:
   puntuaciones Belbin y el género de los individuos a agrupar, ya que dicha información es en la que el algoritmo se basa para crear equipos. También debe contener el número total de individuos y el tamaño
   deseado para los equipos a formar. Para mayor conocimiento sobre cómo debe estar organizada la información que debe contener la instancia, se recomienda observar la estructura de alguna de las instancias
   utilizadas para evaluar el rendimiento de los algoritmos en la formación de equipos, las cuales también están subidas al repositorio. Cabe aclarar que cualquier espacio observado entre el texto de una misma
-  línea corresponde a una tabulación.
+  línea corresponde a una tabulación. En cuanto a las puntuaciones, si bien se encuentran puestas como números flotantes (x.0), también sería válido que estuvieran puestas en un formato que conste solamente de
+  la parte entera (x).
   --tiempo_límite: aquí se establece el tiempo límite de ejecución del algoritmo para que forme los equipos. Debe estar en segundos. Por ejemplo, si queremos que el algoritmo se ejecute durante un minuto, el
   valor que se debería proporcionar es 60.
   --lambda_: puede tomar valores entre 0 y 1. Sirve para determinar si queremos que el algoritmo se oriente hacia la formación de equipos cuya estructura favorezca más la cobertura de roles (> 0.5), el balance
