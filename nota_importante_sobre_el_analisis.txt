@@ -1,0 +1,2 @@
+Para reproducir el análisis realizado en el archivo "analisis_resultados_experimentacion.ipynb" y ejecutar correctamente todo el código desarrollado en el mismo, dicho archivo y 
+la carpeta "archivos_resultados_experimentacion" deben estar en el mismo directorio.
