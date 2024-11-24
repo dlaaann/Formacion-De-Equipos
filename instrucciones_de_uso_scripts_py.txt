@@ -28,9 +28,14 @@ En este caso, el comando a utilizar consta de tres parámetros: --instancia, --t
 
 
 Ambos algoritmos, una vez terminan de ejecutarse, generan una tupla de dos elementos:
-  -Primer elemento: consiste en una lista de N elementos que indica cómo se han agrupado los N individuos. Es decir, cada posición de la lista se asocia con un alumno distinto, y el elemento o valor de dicha posición indica a qué equipo ha sido asignado.
-  -Segundo elemento: consiste en una tupla de tres elementos que indican, respectivamente, la eficacia media de los equipos, y tanto el valor medio de la cobertura de roles como del balance de géneros alcanzado por los equipos. Cada uno de estos tres valores puede oscilar entre un mínimo de 0 y un máximo de 1. Cuanto más próximos estén a 1, mejor se estima que serán los equipos. La eficacia media de los equipos es una combinación lineal del valor medio de la cobertura de roles y del balance de géneros --> lambda_ * valor_medio_cobertura_de_roles + (1 - lambda_) * valor_medio_balance_de_generos.
+  -Primer elemento: consiste en una lista de N elementos que indica cómo se han agrupado los N individuos. Es decir, cada posición de la lista se asocia con un alumno distinto, y el elemento o valor de dicha
+  posición indica a qué equipo ha sido asignado.
+  -Segundo elemento: consiste en una tupla de tres elementos que indican, respectivamente, la eficacia media de los equipos, y tanto el valor medio de la cobertura de roles como del balance de géneros alcanzado
+  por los equipos. Cada uno de estos tres valores puede oscilar entre un mínimo de 0 y un máximo de 1. Cuanto más próximos estén a 1, mejor se estima que serán los equipos. La eficacia media de los equipos es una
+  combinación lineal del valor medio de la cobertura de roles y del balance de géneros --> lambda_ * valor_medio_cobertura_de_roles + (1 - lambda_) * valor_medio_balance_de_generos.
 
-También generan un texto relacionado con el primer elemento de la tupla anterior, es decir, la lista que indica cómo se han agrupado los N individuos. De este modo, dicho texto indica con palabras cuántos equipos se han formado en total y la composición de cada uno de ellos.
+También generan un texto relacionado con el primer elemento de la tupla anterior, es decir, la lista que indica cómo se han agrupado los N individuos. De este modo, dicho texto indica con palabras cuántos equipos
+se han formado en total y la composición de cada uno de ellos.
 
-Por último, cabe destacar que estos algoritmos no han sido diseñados para controlar cualquier tipo de error, como por ejemplo, la introducción de valores incorrectos en los parámetros o instancias con una estructura distinta a la definida, entre otros. Por tanto, se recomienda atenerse a la introducción de los valores indicados para cada uno de los parámetros.
+Por último, cabe destacar que estos algoritmos no han sido diseñados para controlar cualquier tipo de error, como por ejemplo, la introducción de valores incorrectos en los parámetros o instancias con una
+estructura distinta a la definida, entre otros. Por tanto, se recomienda atenerse a la introducción de los valores indicados para cada uno de los parámetros.
