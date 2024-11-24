@@ -13,8 +13,8 @@ El comando consta de cinco parámetros:
   línea corresponde a una tabulación.
   --tiempo_límite: aquí se establece el tiempo límite de ejecución del algoritmo para que forme los equipos. Debe estar en segundos. Por ejemplo, si queremos que el algoritmo se ejecute durante un minuto, el
   valor que se debería proporcionar es 60.
-  --lambda_: puede tomar valores entre 0 y 1. Sirve para determinar si queremos que el algoritmo se oriente hacia la formación de equipos cuya estructura favorezca más la cobertura de roles (> 0.5), el balance de
-  géneros (< 0.5) o ambos aspectos en un grado similar (0.5).
+  --lambda_: puede tomar valores entre 0 y 1. Sirve para determinar si queremos que el algoritmo se oriente hacia la formación de equipos cuya estructura favorezca más la cobertura de roles (> 0.5), el balance
+  de géneros (< 0.5) o ambos aspectos en un grado similar (0.5).
   --alfa: este parámetro corresponde al parámetro alfa característico de la metaheurística GRASP, que puede tomar valores entre 0 y 1. Se recomienda utilizar valores bajos de este parámetro, ya que en esos casos
   el algoritmo tiende a ser más rápido para generar una solución de calidad.
   --estrategia_bl: aquí se establece la estrategia de la técnica de búsqueda local que integra la metaheurística GRASP. Puede tomar como valores "best-improving" o "first-improving". Se recomienda utilizar este
